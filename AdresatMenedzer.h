@@ -4,13 +4,17 @@
 #include "Adresat.h"
 #include "PlikiZAdresatami.h"
 #include "MetodyPomocnicze.h"
+#include <vector>
+#include <iostream>
 
-using namespace std;
+
+//using namespace std;
 
 class AdresatMenedzer
 {
     Adresat adresat;
     PlikiZAdresatami plikiZAdresatami;
+    MetodyPomocnicze metodyPomocnicze;
 
     vector <Adresat> adresaci;
     vector <string> linieAdresatow;
@@ -28,6 +32,8 @@ public:
         adresaci=plikiZAdresatami.wczytajAdresatowZPliku();
         linieAdresatow=plikiZAdresatami.wczytajLinieZPlikuDoWektora();
     };
+
+    //char wybierzOpcjeZMenuGlownego();
 
     Adresat dodajAdresata();
     void wyszukajPoImieniu();

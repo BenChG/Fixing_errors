@@ -1,5 +1,15 @@
 #include "AdresatMenedzer.h"
 
+/*
+char AdresatMenedzer::wybierzOpcjeZMenuGlownego()
+{
+
+    char wybor;
+    wybor = metodyPomocnicze.wybierzOpcjeZMenuGlownego();
+    return wybor;
+}
+*/
+
 Adresat AdresatMenedzer::dodajAdresata()
 {
     Adresat adresat;

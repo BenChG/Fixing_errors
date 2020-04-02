@@ -2,6 +2,7 @@
 #define METODYPOMOCNICZE_H
 
 #include "AdresatMenedzer.h"
+#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
