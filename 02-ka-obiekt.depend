@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1584942133 source:c:\users\asus\desktop\02-ka-obiekt\adresat.cpp
+	"Adresat.h"
+
+1584869978 c:\users\asus\desktop\02-ka-obiekt\adresat.h
+	<iostream>
+
+1585570496 source:c:\users\asus\desktop\02-ka-obiekt\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1585720568 c:\users\asus\desktop\02-ka-obiekt\adresatmenedzer.h
+	"Adresat.h"
+	"PlikiZAdresatami.h"
+	"MetodyPomocnicze.h"
+	<vector>
+	<iostream>
+
+1584869976 c:\users\asus\desktop\02-ka-obiekt\plikizadresatami.h
+	<fstream>
+	<vector>
+	<stdlib.h>
+	"Adresat.h"
+
+1585293382 c:\users\asus\desktop\02-ka-obiekt\metodypomocnicze.h
+	"AdresatMenedzer.h"
+	"KsiazkaAdresowa.h"
+
+1585720319 source:c:\users\asus\desktop\02-ka-obiekt\main.cpp
+	"KsiazkaAdresowa.h"
+
+1585032209 source:c:\users\asus\desktop\02-ka-obiekt\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1585031376 source:c:\users\asus\desktop\02-ka-obiekt\plikizadresatami.cpp
+	"PlikiZAdresatami.h"
+
+1585805742 source:c:\users\asus\desktop\02-ka-obiekt\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1585290394 source:c:\users\asus\desktop\02-ka-obiekt\plikizuzytkownikami.cpp
+
+1585290450 source:c:\users\asus\desktop\02-ka-obiekt\uzytkownikmenedzer.cpp
+
+1585291690 source:c:\users\asus\desktop\02-ka-obiekt\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1585291690 c:\users\asus\desktop\02-ka-obiekt\uzytkownik.h
+	<iostream>
+
+1585805743 c:\users\asus\desktop\02-ka-obiekt\ksiazkaadresowa.h
+	"AdresatMenedzer.h"
+
+1585290433 c:\users\asus\desktop\02-ka-obiekt\uzytkownikmenedzer.h
+
